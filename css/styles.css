@@ -1,0 +1,50 @@
+.whatsapp-link img {
+  transition: all 0.3s ease-in-out;
+  filter: hue-rotate(0deg);
+}
+
+.whatsapp-link:hover img {
+  transform: scale(1.1);
+  filter: hue-rotate(90deg);
+}
+
+.navbar-brand {
+  transition: all 0.3s ease-in-out;
+  color: primary;
+  filter: hue-rotate(3deg);
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+  color: yellow;
+}
+
+.row.h-100 .countContainer {
+  width: 600px;
+  height: 100px;
+  background: #dc3545;
+  border-radius: 50px;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.row.h-100 .counterTitle {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px; /* Adiciona algum espaço entre o título e o número */
+}
+
+.row.h-100 #count1,
+.row.h-100 #count2 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.anima-numero {
+  margin: 40px;
+}
